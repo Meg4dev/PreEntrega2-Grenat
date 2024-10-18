@@ -1,9 +1,20 @@
-import React from 'react'
+import React from 'react';
+import Item from './Item';
+import '../global/style.css';
 
-const ItemList = () => {
+const ItemList = ({ products }) => {
   return (
-    <div>ItemList</div>
-  )
-}
+    <div className='itemList'>
+      {Array.isArray(products) && products.length > 0 ? (
+        products.map((product) => (
+          <Item item={product} key={product.id} />
+        ))
+      ) : (
+        <p>No hay productos disponibles</p>
+      )}
+    </div>
+  );
+};
 
-export default ItemList
+export default ItemList;
+

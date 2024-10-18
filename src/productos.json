@@ -1,0 +1,529 @@
+[
+    
+        {
+            "brand": "Gibson",
+            "model": "Les Paul Standard",
+            "price": 2800,
+            "img": "../src/images/lespaulstandard.jpg",
+            "stock": 12,
+            "id": "GS-GA573",
+            "category": "guitars"
+        },
+        {
+            "brand": "Gibson",
+            "model": "Les Paul Standard '50s",
+            "price": 2700,
+            "img": "../src/images/product-lespaulstandard50s.jpg",
+            "stock": 6,
+            "id": "GS-DF5521",
+            "category": "guitars"
+        },
+        {
+            "brand": "Gibson",
+            "model": "Les Paul Studio",
+            "price": 1600,
+            "img": "../src/images/product-lespaulstudio.png",
+            "stock": 8,
+            "id": "GS-KJ5122",
+            "category": "guitars"
+        },
+        {
+            "brand": "Gibson",
+            "model": "Les Paul Classic",
+            "price": 1300,
+            "img": "../src/images/product-lespaulclassic.png",
+            "stock": 17,
+            "id": "GS-L3423",
+            "category": "guitars"
+        },
+        {
+            "brand": "Gibson",
+            "model": "SG Standard",
+            "price": 2500,
+            "img": "../src/images/product-sgstandard.png",
+            "stock": 16,
+            "id": "GS-SD3423",
+            "category": "guitars"
+        },
+        {
+            "brand": "Gibson",
+            "model": "SG Custom",
+            "price": 2300,
+            "img": "../src/images/product-sgcustom.jpg",
+            "stock": 20,
+            "id": "GS-SDBFD3",
+            "category": "guitars"
+        },
+        {
+            "brand": "Gibson",
+            "model": "Explorer",
+            "price": 1900,
+            "img": "../src/images/product-explorer.jpg",
+            "stock": 16,
+            "id": "GS-AS234",
+            "category": "guitars"
+        },
+        {
+            "brand": "Gibson",
+            "model": "Flying V",
+            "price": 2400,
+            "img": "../src/images/product-flyingv.jpg",
+            "stock": 14,
+            "id": "GS-SDSH23S",
+            "category": "guitars"
+        },
+        {
+            "brand": "Gibson",
+            "model": "Firebird",
+            "price": 2850,
+            "img": "../src/images/product-firebird.jpg",
+            "stock": 6,
+            "id": "GS-S133S",
+            "category": "guitars"
+        },
+        {
+            "brand": "Gibson",
+            "model": "J-45",
+            "price": 1500,
+            "img": "../src/images/product-j-45.jpg",
+            "stock": 19,
+            "id": "GS-J45203",
+            "category": "guitars"
+        },
+        {
+            "brand": "Gibson",
+            "model": "Hummingbird",
+            "price": 1450,
+            "img": "../src/images/product-hummingbird.jpg",
+            "stock": 8,
+            "id": "GS-HUM3412",
+            "category": "guitars"
+        },
+        {
+            "brand": "Gibson",
+            "model": "J-200",
+            "price": 1200,
+            "img": "../src/images/product-sj-200.jpg",
+            "stock": 20,
+            "id": "GS-J21300",
+            "category": "guitars"
+        },
+        {
+            "brand": "Fender",
+            "model": "Stratocaster",
+            "price": 1200,
+            "img": "../src/images/product-fenderstratocaster.jpg",
+            "stock": 12,
+            "id": "F-SD3492823",
+            "category": "guitars"
+        },
+        {
+            "brand": "Fender",
+            "model": "Ultra Stratocaster",
+            "price": 1400,
+            "img": "../src/images/product-ultrastratocaster.jpg",
+            "stock": 16,
+            "id": "F-SD954389",
+            "category": "guitars"
+        },
+        {
+            "brand": "Fender",
+            "model": "Player Telecaster",
+            "price": 1200,
+            "img": "../src/images/product-playertelecaster.jpg",
+            "stock": 9,
+            "id": "F-SD5y452",
+            "category": "guitars"
+        },
+        {
+            "brand": "Fender",
+            "model": "Jazzmaster",
+            "price": 1100,
+            "img": "../src/images/product-jazzmaster.jpg",
+            "stock": 15,
+            "id": "F-SD3423",
+            "category": "guitars"
+        },
+        {
+            "brand": "Fender",
+            "model": "Performer Mustang",
+            "price": 1300,
+            "img": "../src/images/product-performermustang.jpg",
+            "stock": 14,
+            "id": "F-SD1263",
+            "category": "guitars"
+        },
+        {
+            "brand": "Fender",
+            "model": "Ultra Telecaster",
+            "price": 1600,
+            "img": "../src/images/product-ultratelecaster.jpg",
+            "stock": 15,
+            "id": "F-SD7423",
+            "category": "guitars"
+        },
+        {
+            "brand": "Fender",
+            "model": "Jaguar",
+            "price": 1150,
+            "img": "../src/images/product-jaguar.jpg",
+            "stock": 18,
+            "id": "F-SD6323",
+            "category": "guitars"
+        },
+        {
+            "brand": "Fender",
+            "model": "FA-125 Dreadnought",
+            "price": 1125,
+            "img": "../src/images/product-fa-125dreadnought.jpg",
+            "stock": 17,
+            "id": "F-A125231",
+            "category": "guitars"
+        },
+        {
+            "brand": "Fender",
+            "model": "Newporter Player",
+            "price": 1100,
+            "img": "../src/images/product-newporterplayer.jpg",
+            "stock": 7,
+            "id": "F-NWP3124",
+            "category": "guitars"
+        },
+        {
+            "brand": "Fender",
+            "model": "Redondo Player",
+            "price": 900,
+            "img": "../src/images/product-redondoplayer.jpg",
+            "stock": 7,
+            "id": "F-RDP2314",
+            "category": "guitars"
+        },
+
+        {
+            "brand": "ESP",
+            "model": "Eclipse",
+            "price": 1200,
+            "img": "../src/images/product-eclipse.jpg",
+            "stock": 19,
+            "id": "ESP-53223",
+            "category": "guitars"
+        },
+        {
+            "brand": "ESP",
+            "model": "Horizon NT-II",
+            "price": 1400,
+            "img": "../src/images/product-horizonnt-ii.jpg",
+            "stock": 19,
+            "id": "ESP-87873",
+            "category": "guitars"
+        },
+        {
+            "brand": "ESP",
+            "model": "Arrow",
+            "price": 1750,
+            "img": "../src/images/product-arrow.jpg",
+            "stock": 8,
+            "id": "ESP-3423",
+            "category": "guitars"
+        },
+        {
+            "brand": "ESP Signature",
+            "model": "LTD KH-602",
+            "price": 1850,
+            "img": "../src/images/product-ltdkh-602.jpg",
+            "stock": 14,
+            "id": "ESP-KH3421513",
+            "category": "guitars"
+        },
+        {
+            "brand": "ESP Signature",
+            "model": "ESP KH-2",
+            "price": 1850,
+            "img": "../src/images/product-kh2.png",
+            "stock": 17,
+            "id": "ESP-KH325",
+            "category": "guitars"
+        },
+
+        {
+            "brand": "Squier",
+            "model": "Stratocaster",
+            "price": 140,
+            "img": "../src/images/product-squierstratocaster.jpg",
+            "stock": 10,
+            "id": "SQ-270443",
+            "category": "guitars"
+        },
+        {
+            "brand": "Squier",
+            "model": "Telecaster",
+            "price": 160,
+            "img": "../src/images/product-telecaster.jpg",
+            "stock": 11,
+            "id": "SQ-527823",
+            "category": "guitars"
+        },
+        {
+            "brand": "Squier",
+            "model": "'50s Telecaster",
+            "price": 260,
+            "img": "../src/images/product-50stelecaster.jpg",
+            "stock": 10,
+            "id": "SQ-21211",
+            "category": "guitars"
+        },
+        {
+            "brand": "Squier",
+            "model": "'60s Jazzmaster",
+            "price": 200,
+            "img": "../src/images/product-60sjazzmaster.jpg",
+            "stock": 16,
+            "id": "SQ-219360",
+            "category": "guitars"
+        },
+        {
+            "brand": "Squier",
+            "model": "'70s Jaguar",
+            "price": 180,
+            "img": "../src/images/product-70sjaguar.jpg",
+            "stock": 6,
+            "id": "SQ-21208",
+            "category": "guitars"
+        },
+        {
+            "brand": "Squier",
+            "model": "Squier 2000",
+            "price": 190,
+            "img": "../src/images/product-squier2000.jpg",
+            "stock": 6,
+            "id": "SQ-08911",
+            "category": "guitars"
+        },
+
+        {
+            "brand": "Yamaha",
+            "model": "FG800",
+            "price": 670,
+            "img": "../src/images/product-fg800.jpg",
+            "stock": 12,
+            "id": "YH-FG5469",
+            "category": "guitars"
+        },
+        {
+            "brand": "Yamaha",
+            "model": "APX600",
+            "price": 500,
+            "img": "../src/images/product-apx600.jpg",
+            "stock": 15,
+            "id": "FH-AXP342900",
+            "category": "guitars"
+        },
+        {
+            "brand": "Yamaha",
+            "model": "LL6 ARE",
+            "price": 750,
+            "img": "../src/images/product-ll6are.jpg",
+            "stock": 7,
+            "id":"YH-LL52434",
+            "category": "guitars"
+        },
+
+        {
+            "brand": "Fender",
+            "model": "Precision Bass",
+            "price": 1400,
+            "img": "../src/images/poduct-precisionbass.jpg",
+            "stock": 15,
+            "id": "FB-PB4321",
+            "category": "bass"
+        },
+        {
+            "brand": "Fender",
+            "model": "Jazz Bass",
+            "price": 1350,
+            "img": "../src/images/product-jazzbass.jpg",
+            "stock": 14,
+            "id": "FB-JB3289",
+            "category": "bass"
+        },
+        {
+            "brand": "Fender",
+            "model": "Mustang Bass",
+            "price": 1150,
+            "img": "../src/images/product-mustangbass.jpg",
+            "stock": 19,
+            "id": "FB-MB21389",
+            "category": "bass"
+        },
+        {
+            "brand": "Fender",
+            "model": "Jaguar Bass",
+            "price": 1200,
+            "img": "../src/images/product-jaguarbass.jpg",
+            "stock": 18,
+            "id": "FB-JaB1029",
+            "category": "bass"
+        },
+
+        {
+            "brand": "Ibanez",
+            "model": "SR Series",
+            "price": 900,
+            "img": "../src/images/product-srseries.jpg",
+            "stock": 11,
+            "id": "I-1209",
+            "category": "bass"
+        },
+        {
+            "brand": "Ibanez",
+            "model": "BTB Series",
+            "price": 870,
+            "img": "../src/images/product-btbseries.jpg",
+            "stock": 19,
+            "id": "I-104920",
+            "category": "bass"
+        },
+        {
+            "brand": "Ibanez",
+            "model": "Talman Bass",
+            "price": 750,
+            "img": "../src/images/product-talmanbass.jpg",
+            "stock": 16,
+            "id": "I-9830",
+            "category": "bass"
+        },
+        {
+            "brand": "Yamaha",
+            "model": "BB Series",
+            "price": 560,
+            "img": "../src/images/product-bbseries.jpg",
+            "stock": 6,
+            "id": "YB-BBS109984",
+            "category": "bass"
+        },
+        {
+            "brand": "Yamaha",
+            "model": "TRBX Series",
+            "price": 650,
+            "img": "../src/images/product-trbxseries.jpg",
+            "stock": 8,
+            "id": "YB-TRBX2193",
+            "category": "bass"
+        },
+        {
+            "brand": "Yamaha",
+            "model": "RBX Series",
+            "price": 580,
+            "img": "../src/images/product-rbxseries.jpg",
+            "stock": 15,
+            "id":"YB-RBX03192",
+            "category": "bass"
+        },
+        {
+            "brand": "Marshall",
+            "model": "DSL40CR",
+            "power": "40W",
+            "price": 400,
+            "img": "../src/images/product-dsl40cr40w.jpg",
+            "stock": 7,
+            "id": "AMP-M40W932",
+            "category": "amps"
+        },
+        {
+            "brand": "Marshall",
+            "model": "MG30GFX",
+            "power": "30W",
+            "price": 350,
+            "img": "../src/images/product-mg30gfx.jpg",
+            "stock": 19,
+            "id": "AMP-M30W3210",
+            "category": "amps"
+        },
+        {
+            "brand": "Fender",
+            "model": "Champion 100",
+            "power": "100W",
+            "price": 650,
+            "img": "../src/images/product-champion100100w.jpg",
+            "stock": 16,
+            "id": "AMP-F100W230",
+            "category": "amps"
+        },
+        {
+            "brand": "Fender",
+            "model": "Blues Junior IV",
+            "power": "15W",
+            "price": 200,
+            "img": "../src/images/product-bluesjunioriv15w.jpg",
+            "stock": 11,
+            "id":"AMP-F15W1309",
+            "category": "amps"
+        },
+        {
+            "brand": "Fender",
+            "model": "Rumble 500",
+            "power": "500W",
+            "price": 600,
+            "img": "../src/images/product-rumble500500w.jpg",
+            "stock": 18,
+            "id":"AMP-F500W1209",
+            "category": "amps"
+        },
+        {
+            "brand": "Fender",
+            "model": "Bassman 800",
+            "power": "800W",
+            "price": 750,
+            "img": "../src/images/product-bassman800800w.jpg",
+            "stock": 16,
+            "id": "AMP-F800W439",
+            "category": "amps"
+        },
+        {
+            "brand": "Ampeg",
+            "model": "SVT-CL",
+            "power": "300W",
+            "price": 350,
+            "img": "../src/images/product-svtcl300w.jpg",
+            "stock": 7,
+            "id": "AMP-A300W",
+            "category": "amps"
+        },
+        {
+            "brand": "ROSS",
+            "model": "Cable Plug",
+            "price": 10400,
+            "img": "../src/images/product-cableross.png",
+            "stock": 8,
+            "id":"PRPS-ROSS2121",
+            "category": "props"
+
+        },
+        {
+            "brand": "Jim Dunlop",
+            "model": "Puas",
+            "price": 8400,
+            "img": "../src/images/product-puasguitarra.png",
+            "stock": 11,
+            "id":"PRPS-JDPICKS01296",
+            "category": "props"
+        },
+        {
+            "brand": "Bajo Magma",
+            "model": "Correa para guitarra",
+            "price": 7850,
+            "img": "../src/images/product-correaguitarra.png",
+            "stock": 7,
+            "id":"PRPS-AG2310",
+            "category": "props"
+        },
+        {
+            "brand": "Afinador",
+            "model": "Para guitarras y bajos.",
+            "price": 11900,
+            "img": "../src/images/product-afinador.png",
+            "stock": 17,
+            "id": "PRPS-AF21380",
+            "category": "props"
+        }
+    ]

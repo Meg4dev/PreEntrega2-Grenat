@@ -1,18 +1,21 @@
-import NavBar from "./components/NavBar";
-import ItemListContainer from "./components/ItemListContainer";
-import ItemList from './components/ItemList'
-import StaticPNG from "./components/StaticPNG";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import ItemListContainer from './components/ItemListContainer';
+import NotFound from './components/NotFound';
+import ItemDetailContainer from './components/ItemDetailContainer';
+
 function App() {
   return (
-    <>
-      <header>
-        <NavBar />
-      </header>
-      <main>
-        <ItemListContainer message="Bienvenido a mi Eccomerce de Musica!" />
-        <StaticPNG />
-      </main>
-    </>
+    <BrowserRouter>
+    <Layout>
+      <Routes>
+        <Route path = '/' element = {<ItemListContainer/>}/>
+        <Route path = '/category/:categoryId' element = {<ItemListContainer/>}/>
+        <Route path = '/detail/:id' element = {<ItemDetailContainer/>}/>
+        <Route path = '*' element = {<NotFound/>}/>
+      </Routes>
+    </Layout>
+    </BrowserRouter>
   );
 }
 

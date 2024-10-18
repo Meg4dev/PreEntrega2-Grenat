@@ -10,7 +10,7 @@ const CartWidget = () => {
         className="cart"
         style={{ width: "30px", height: "30px", cursor: "pointer" }}
       />
-      <div
+      {/* <div
         style={{
           borderRadius: "50%",
           border: "1px",
@@ -26,7 +26,7 @@ const CartWidget = () => {
         }}
       >
         <span style={{ color: "white", fontSize: "11px" }}>4</span>
-      </div>
+      </div> */}
     </>
   );
 };
