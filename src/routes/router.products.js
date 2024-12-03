@@ -1,36 +1,37 @@
 import { Router } from "express";
+import { v4 as uuidv4 } from "uuid"; 
 
 const router = Router();
 
 let products = [];
 
-// Ruta para listar todos los productos
+
 router.get("/", (req, res) => {
-    res.json(products);
-});
+    res.render("home", { products });
+})
 
 // Ruta para agregar un producto
 router.post("/", (req, res) => {
-    const { brand, model, price, stock, id, category } = req.body;
+    const { brand, model, price, stock, category } = req.body;
 
-    // Validar datos obligatorios
-    if (!brand || !model || !price || !stock || !id || !category) {
+    // Validacion de datos
+    if (!brand || !model || !price || !stock || !category) {
         return res.status(400).json({ error: "Todos los campos son obligatorios" });
     }
 
-    // Verificar si el producto ya existe
-    if (products.some(product => product.id === id)) {
-        return res.status(409).json({ error: "El producto ya existe" });
-    }
+    // Generar un id unico
+    const id = uuidv4();
 
     // Crear y agregar el producto
     const newProduct = { brand, model, price, stock, id, category };
     products.push(newProduct);
 
-    res.status(201).json({ message: "Producto agregado con éxito", product: newProduct });
+
+    // Respondemos con un mensaje de éxito
+    res.status(201).send("Producto agregado correctamente");
 });
 
-// Ruta para eliminar un producto por ID
+// Ruta para eliminar un producto por id
 router.delete("/:id", (req, res) => {
     const { id } = req.params;
 
