@@ -1,51 +1,32 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const socket = io();
+    const productList = document.querySelector("#product-list");
 
-// const socket = io();
+    socket.on("updateProducts", (products) => {
+        productList.innerHTML = ""; 
+        products.forEach((product) => {
+            addProductToList(product);
+        });
+    });
 
-// // Renderizar productos
-// const renderProducts = (products) => {
-//     const productList = document.getElementById("product-list");
-//     productList.innerHTML = "";
+    socket.on("newProduct", (product) => {
+        addProductToList(product);
+    });
 
-//     products.forEach(product => {
-//         const productCard = document.createElement("div");
-//         productCard.className = "product-card";
-//         productCard.innerHTML = `
-//             <h2>${product.brand} - ${product.model}</h2>
-//             <p>Precio: $${product.price}</p>
-//             <p>Stock: ${product.stock}</p>
-//             <p>Categoría: ${product.category}</p>
-//             <button onclick="deleteProduct('${product.id}')">Eliminar</button>
-//         `;
-//         productList.appendChild(productCard);
-//     });
-// };
+    socket.on("deleteProduct", (id) => {
+        const productItem = document.querySelector(`#product-${id}`);
+        if (productItem) {
+            productList.removeChild(productItem);
+        }
+    });
 
-// // Escuchar actualizaciones del servidor
-// socket.on("updateProducts", (products) => {
-//     renderProducts(products);
-// });
-
-// // Eliminar producto
-// const deleteProduct = async (id) => {
-//     try {
-//         const response = await fetch(`/api/products/${id}`, {
-//             method: "DELETE",
-//         });
-
-//         if (response.ok) {
-//             alert("Producto eliminado correctamente");
-//         } else {
-//             alert("Error al eliminar el producto");
-//         }
-//     } catch (error) {
-//         alert("Error de conexión con el servidor");
-//     }
-// };
-
-// socket.emit("mensaje", 'hola soy el cliente');
-
-// Establecer la conexión con el servidor Socket.IO
-
+    function addProductToList(product) {
+        const productItem = document.createElement("li");
+        productItem.id = `product-${product.id}`;
+        productItem.textContent = `Marca: ${product.brand}, Modelo: ${product.model}, Precio: ${product.price}, Stock: ${product.stock}, Categoría: ${product.category}`;
+        productList.appendChild(productItem);
+    }
+});
 
 
 
