@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+
   socket.on("newProduct", (product) => {
     addProductToList(product);
   });
@@ -23,7 +24,19 @@ document.addEventListener("DOMContentLoaded", () => {
   function addProductToList(product) {
     const productItem = document.createElement("li");
     productItem.id = `product-${product.id}`;
-    productItem.textContent = `Marca: ${product.brand}, Modelo: ${product.model}, Precio: ${product.price}, Stock: ${product.stock}, Categoría: ${product.category}`;
+
+    productItem.innerHTML = `
+      Marca: ${product.brand}, Modelo: ${product.model}, Precio: ${product.price}, Stock: ${product.stock}, Categoría: ${product.category}
+      <button class="delete-btn" data-id="${product.id}">Eliminar</button>
+    `;
+
     productList.appendChild(productItem);
+
+    const deleteButton = productItem.querySelector(".delete-btn");
+    deleteButton.addEventListener("click", () => {
+      const productId = deleteButton.getAttribute("data-id");
+      socket.emit("deleteProductRequest", productId);
+      alert("Producto eliminado correctamente.");
+    });
   }
 });

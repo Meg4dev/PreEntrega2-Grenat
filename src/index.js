@@ -22,6 +22,19 @@ io.on("connection", (socket) => {
 
   socket.emit("updateProducts", products);
 
+
+  socket.on("deleteProductRequest", (id) => {
+    const productIndex = products.findIndex((product) => product.id === id);
+
+    if (productIndex !== -1) {
+
+      products.splice(productIndex, 1);
+
+
+      io.emit("deleteProduct", id);
+    }
+  });
+
   socket.on("disconnect", () => {
     console.log("Cliente desconectado");
   });
